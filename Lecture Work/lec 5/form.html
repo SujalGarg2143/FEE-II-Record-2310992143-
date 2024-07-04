@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <!-- tells what action will perform when form gets submitted -->
+            <form action="">
+                <!-- inputs: tag used to take data from user  -->
+                <!-- placeholder : used to write text within the input type -->
+                <!-- labels : used to write text outside the input type or used to describe the input type -->
+                <!-- label ka for and input field ka id must be same in order to link them -->
+                <input type="text" placeholder="username"><br>
+                <label for="password">enter your password : </label>
+                <input type="password" id="password"><br>
+                <input type="date"><br>
+                <input type="time"><br>
+                <input type="number"><br>
+                <input type="checkbox"><br>
+                <input type="color"><br>
+                <input type="image"><br>
+                <input type="radio"><br>
+                <!-- button has 3 types : submit , reset ,  -->
+                <button type="button">submit</button><br>
+
+                <label for="male">Male:</label>
+                <input type="radio" id="male">
+
+                <label for="female">female:</label>
+                <input type="radio" id="female">
+                
+                <hr>
+                <h1>dropdown</h1>
+                <select name="language">
+                    <option selected>select language</option>
+                    <option>c</option>
+                    <option>c++</option>
+                    <option>js</option>
+                </select>
+
+                <hr>
+                <h1>range </h1>
+                <label >attendence</label>
+                <input type="range" min="0" max="100" step="10" value="20">
+
+                <hr>
+                <h1>textarea</h1>
+
+                <textarea></textarea>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
