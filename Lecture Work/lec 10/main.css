@@ -1,0 +1,34 @@
+/* Universal Selector */
+
+*{
+    font-size: 20px;
+    color: aqua;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+/* id selector */
+
+#Superheroes{
+    text-decoration: line-through;
+    color: brown;
+}
+
+/* class selectors */
+
+.sh_names{
+    background-color: greenyellow;
+    border: 1px solid orangered;
+}
+
+/* element selector */
+
+p{
+    background-color: blueviolet;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    background-color: gainsboro;
+}
