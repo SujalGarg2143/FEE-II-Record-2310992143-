@@ -1,0 +1,14 @@
+ul li a{
+    background-color: blueviolet;
+    font-size: xx-large;
+}
+
+
+div p{
+    background-color: aquamarine;
+}
+
+/* child selector */
+section>h3{
+    border: 1px solid rebeccapurple;
+}
