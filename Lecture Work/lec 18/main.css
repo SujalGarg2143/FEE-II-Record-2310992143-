@@ -1,0 +1,18 @@
+section{
+    width: 50vh;
+    margin: 20px auto;
+    display: grid;
+    /* grid-auto-columns: repeat(5,250px); */
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr)) ;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+
+div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
